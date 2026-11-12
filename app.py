@@ -270,7 +270,7 @@ def before_model_guardrail(callback_context, llm_request):
 def get_mcp_agent():
     return Agent(
         name="bank_mcp_analyst",
-        model="gemini-2.5-flash",
+        model="gemini-3.5-flash",
         description="Virtual Banking Analyst utilizing Model Context Protocol.",
         instruction=(
             "You are an enterprise Virtual Banking Data Analyst operating through the Model Context Protocol (MCP).\n"
